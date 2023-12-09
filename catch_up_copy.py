@@ -3,8 +3,8 @@ from pygame import *
 
 window = display.set_mode((700,500))
 background = transform.scale(image.load('background.png'),(700,500))
-display.set_caption('Догонялки')
-
+display.set_caption('Dogonialki')
+print('la-la-la')
 font.init()
 
 class GameSprite(sprite.Sprite):
